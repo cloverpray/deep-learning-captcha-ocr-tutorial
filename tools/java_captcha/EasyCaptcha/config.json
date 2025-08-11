@@ -1,0 +1,94 @@
+{
+  "type_mix": {
+    "spec": 10,
+    "spec_num": 10,
+    "spec_char": 10,
+    "spec_upper": 10,
+    "spec_lower": 10,
+    "spec_numupper": 10,
+    "spec_numlower": 10,
+    "gif": 0,
+    "gif_numupper": 0,
+    "gif_numlower": 0,
+    "cn": 20,
+    "cn_gif": 0,
+    "arith": 10
+  },
+  "sizes": {
+    "160x60": 40,
+    "180x64": 20,
+    "200x64": 15,
+    "256x64": 10,
+    "120x40": 10,
+    "96x32": 5
+  },
+  "defaults": {
+    "len": { "4": 50, "5": 25, "6": 25 },
+    "fonts": {
+      "builtin": 30,
+      "Arial": 15,
+      "Verdana": 10,
+      "Tahoma": 10,
+      "Consolas": 8,
+      "Times New Roman": 7,
+      "微软雅黑": 10,
+      "Noto Sans SC": 5,
+      "等线": 5
+    }
+  },
+  "per_type": {
+    "spec": {
+      "len": { "4": 60, "5": 20, "6": 20 }
+    },
+    "spec_num": {
+      "len": { "4": 60, "5": 20, "6": 20 }
+    },
+    "spec_char": {
+      "len": { "4": 60, "5": 20, "6": 20 }
+    },
+    "spec_upper": {
+      "len": { "4": 60, "5": 20, "6": 20 }
+    },
+    "spec_lower": {
+      "len": { "4": 60, "5": 20, "6": 20 }
+    },
+    "spec_numupper": {
+     },
+    "spec_numlower": {
+      "len": { "4": 60, "5": 20, "6": 20 }
+    },
+    "cn": {
+      "len": { "4": 70, "5": 30 },
+      "fonts": {
+        "微软雅黑": 18,
+        "宋体": 12,
+        "黑体": 8,
+        "等线": 7,
+        "仿宋": 5,
+        "楷体": 5,
+        "Noto Sans SC": 18,
+        "Noto Serif SC": 7,
+        "阿里巴巴普惠体 R": 8,
+        "华文宋体": 4,
+        "华文楷体": 4,
+        "方正舒体": 2,
+        "方正姚体": 2
+      }
+    },
+    "arith": {
+      "arith_len": { "2": 80, "3": 20 },
+      "fonts": {
+        "微软雅黑": 18,
+        "宋体": 12,
+        "黑体": 8,
+        "等线": 8,
+        "Noto Sans SC": 18,
+        "Noto Serif SC": 8,
+        "Microsoft JhengHei UI": 10,
+        "阿里巴巴普惠体 R": 8,
+        "华文宋体": 5,
+        "华文楷体": 5
+      }
+    }
+  }
+}

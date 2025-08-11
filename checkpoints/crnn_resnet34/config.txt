@@ -1,0 +1,17 @@
+{
+  "arch": "crnn_resnet34",
+  "train_root": "dataset/train",
+  "val_root": "dataset/test",
+  "imgH": 60,
+  "imgW": 160,
+  "pad_multiple": 4,
+  "downsample": 4,
+  "epochs": 30,
+  "batch": 96,
+  "lr": 0.0003,
+  "aug": true,
+  "compile": false,
+  "num_workers": 1,
+  "resume": false,
+  "print_samples": 10
+}
