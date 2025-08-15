@@ -40,6 +40,24 @@
 </p>
 ---
 
+## ✨ 支持的验证码类型（EasyCaptcha）
+
+| 类型 Key                                | 支持长度        | 支持字体                                                     |
+| --------------------------------------- | --------------- | ------------------------------------------------------------ |
+| 全小写字母验证码`spec`                  | 4, 5, 6         | Times New Roman, 微软雅黑, Noto Sans SC, 等线                |
+| 数字+特殊字符验证码`spec_num`           | 4, 5, 6         | Times New Roman, 微软雅黑, Noto Sans SC, 等线                |
+| 字母+特殊字符验证码`spec_char`          | 4, 5, 6         | Times New Roman, 微软雅黑, Noto Sans SC, 等线                |
+| 全大写字母验证码`spec_upper`            | 4, 5, 6         | Times New Roman, 微软雅黑, Noto Sans SC, 等线                |
+| 全小写字母验证码`spec_lower`            | 4, 5, 6         | Times New Roman, 微软雅黑, Noto Sans SC, 等线                |
+| 数字+大写字母验证码`spec_numupper`      | 4, 5, 6         | Times New Roman, 微软雅黑, Noto Sans SC, 等线                |
+| 数字+小写字母验证码`spec_numlower`      | 4, 5, 6         | Times New Roman, 微软雅黑, Noto Sans SC, 等线                |
+| 动态 GIF 验证码`gif`                    | 4, 5, 6         | Times New Roman, 微软雅黑, Noto Sans SC, 等线                |
+| 动态 GIF（数字+大写字母`gif_numupper`   | 4, 5, 6         | Times New Roman, 微软雅黑, Noto Sans SC, 等线                |
+| 动态 GIF（数字+小写字母）`gif_numlower` | 4, 5, 6         | Times New Roman, 微软雅黑, Noto Sans SC, 等线                |
+| 中文验证码`cn`                          | 4, 5            | 微软雅黑Times New Roman 宋体, 黑体, 等线, 仿宋, 楷体, Noto Sans SC, Noto Serif SC, 阿里巴巴普惠体 R, 华文宋体, 华文楷体, 方正舒体, 方正姚体 |
+| 中文动态 GIF 验证码`cn_gif`             | 4, 5            | 微软雅黑, 宋体, 黑体, 等线, 仿宋, 楷体, Noto Sans SC, Noto Serif SC, 阿里巴巴普惠体 R, 华文宋体, 华文楷体, 方正舒体, 方正姚体 |
+| 算术表达式验证码`arith`                 | 2, 3 (算式长度) | 微软雅黑, 宋体, 黑体, 等线, Noto Sans SC, Noto Serif SC, Microsoft JhengHei UI, 阿里巴巴普惠体 R, 华文宋体, 华文楷体 |
+
 ## ✨ 模型使用效果图
 
 <p><img src="assets/page_demo.jpg" width="780" /></p>
